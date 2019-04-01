@@ -10,29 +10,22 @@ const DEBUG = true;
 class App extends Component {
   constructor() {
     super();
-    const state = {};
-    const existingToken = sessionStorage.getItem('token');
-    const accessToken = (window.location.search.split("=")[0] === "?access_token") ? window.location.search.split("=")[1] : null;
-    if (!accessToken && !existingToken) {
-      window.location.replace(`https://github.com/login/oauth/authorize?scope=user:email,repo&client_id=${clientId}`)
-    }
-    if (accessToken) {
-      console.log(`New accessToken: ${accessToken}`);
-  
-      sessionStorage.setItem("token", accessToken);
-      state.token = accessToken;
-    }
-  
-    if (existingToken) {
-      state.token = existingToken;
+    // const state = {};
+    // Standard local flow.
+    // if(process.env.NODE_ENV    == 'development') {
+    //   let token = this.logInOrRedirect();
+    //   this.state = {
+    //     token: token
+    //   }
+    // } else {
+    //   // Call the Netlify Library.
+    // }
 
-    }    
 
     this.state = {
-      issues: [],
-      token: state.token
+      issues: []
     }
-  }
+}
 
   async fetchIssues() {
     if(DEBUG) {
