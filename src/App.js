@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WeatherCard from './WeatherCard';
+import Counter from './Counter';
+import ResetComponent from './ResetComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1> Weather App </h1>
-        <WeatherCard location="Ho Chi Minh City" temp={0.17}/>
+        <h1> Redux Example </h1>
+        <Counter />
+        <ResetComponent />
       </div>
     );
   }
