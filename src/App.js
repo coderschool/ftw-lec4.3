@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WeatherCard from './WeatherCard';
+import ProductList from './ProductList';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      products: []
+    }
+  }
   render() {
     return (
       <div className="App">
-        <h1> Weather App </h1>
-        <WeatherCard location="Ho Chi Minh City" temp={0.17}/>
+        <h1>Charles-Zada</h1>
+        <ProductList products={this.state.products} />
       </div>
     );
   }

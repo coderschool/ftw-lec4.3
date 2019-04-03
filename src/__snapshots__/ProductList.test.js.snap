@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches our snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    onProductBuy={[MockFunction]}
+    products={
+      Array [
+        Object {
+          "id": 1,
+          "name": "computer",
+          "price": 1000,
+        },
+        Object {
+          "id": 2,
+          "name": "anker mouse",
+          "price": 50,
+        },
+        Object {
+          "id": 3,
+          "name": "computer stand",
+          "price": 20,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          onClick={[Function]}
+        >
+          computer
+          : 
+          1000
+          <button>
+             add to cart 
+          </button>
+          <p>
+            Weird Extra Code
+          </p>
+        </li>,
+        <li
+          onClick={[Function]}
+        >
+          anker mouse
+          : 
+          50
+          <button>
+             add to cart 
+          </button>
+          <p>
+            Weird Extra Code
+          </p>
+        </li>,
+        <li
+          onClick={[Function]}
+        >
+          computer stand
+          : 
+          20
+          <button>
+             add to cart 
+          </button>
+          <p>
+            Weird Extra Code
+          </p>
+        </li>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "computer",
+            ": ",
+            1000,
+            <button>
+               add to cart 
+            </button>,
+            <p>
+              Weird Extra Code
+            </p>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "computer",
+          ": ",
+          1000,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " add to cart ",
+            },
+            "ref": null,
+            "rendered": " add to cart ",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Weird Extra Code",
+            },
+            "ref": null,
+            "rendered": "Weird Extra Code",
+            "type": "p",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "anker mouse",
+            ": ",
+            50,
+            <button>
+               add to cart 
+            </button>,
+            <p>
+              Weird Extra Code
+            </p>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "anker mouse",
+          ": ",
+          50,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " add to cart ",
+            },
+            "ref": null,
+            "rendered": " add to cart ",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Weird Extra Code",
+            },
+            "ref": null,
+            "rendered": "Weird Extra Code",
+            "type": "p",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "computer stand",
+            ": ",
+            20,
+            <button>
+               add to cart 
+            </button>,
+            <p>
+              Weird Extra Code
+            </p>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "computer stand",
+          ": ",
+          20,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " add to cart ",
+            },
+            "ref": null,
+            "rendered": " add to cart ",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Weird Extra Code",
+            },
+            "ref": null,
+            "rendered": "Weird Extra Code",
+            "type": "p",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            onClick={[Function]}
+          >
+            computer
+            : 
+            1000
+            <button>
+               add to cart 
+            </button>
+            <p>
+              Weird Extra Code
+            </p>
+          </li>,
+          <li
+            onClick={[Function]}
+          >
+            anker mouse
+            : 
+            50
+            <button>
+               add to cart 
+            </button>
+            <p>
+              Weird Extra Code
+            </p>
+          </li>,
+          <li
+            onClick={[Function]}
+          >
+            computer stand
+            : 
+            20
+            <button>
+               add to cart 
+            </button>
+            <p>
+              Weird Extra Code
+            </p>
+          </li>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "computer",
+              ": ",
+              1000,
+              <button>
+                 add to cart 
+              </button>,
+              <p>
+                Weird Extra Code
+              </p>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "computer",
+            ": ",
+            1000,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " add to cart ",
+              },
+              "ref": null,
+              "rendered": " add to cart ",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Weird Extra Code",
+              },
+              "ref": null,
+              "rendered": "Weird Extra Code",
+              "type": "p",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "anker mouse",
+              ": ",
+              50,
+              <button>
+                 add to cart 
+              </button>,
+              <p>
+                Weird Extra Code
+              </p>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "anker mouse",
+            ": ",
+            50,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " add to cart ",
+              },
+              "ref": null,
+              "rendered": " add to cart ",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Weird Extra Code",
+              },
+              "ref": null,
+              "rendered": "Weird Extra Code",
+              "type": "p",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "computer stand",
+              ": ",
+              20,
+              <button>
+                 add to cart 
+              </button>,
+              <p>
+                Weird Extra Code
+              </p>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "computer stand",
+            ": ",
+            20,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " add to cart ",
+              },
+              "ref": null,
+              "rendered": " add to cart ",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Weird Extra Code",
+              },
+              "ref": null,
+              "rendered": "Weird Extra Code",
+              "type": "p",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
